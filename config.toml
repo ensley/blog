@@ -48,6 +48,12 @@ url = "/tags"
 weight = 3
 
 
+[[menu.main]]
+name = "john-ensley.com"
+url = "https://john-ensley.com"
+weight = 4
+
+
 [taxonomies]
 tag = "tags"
 
