@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+
+<body>
+	<div class="container wrapper tags">
+		{{ partial "head.html" . }}
+
+		<h1 class="page-title">{{ .Title }}</h1>
+
+		<ul class="posts flat">
+			{{ $paginator := .Paginate (where .Data.Pages "Params.hidden" "ne" true) }}
+			{{ range $paginator.Pages }}
+				<li class="post">
+					{{ partial "post-preview.html" . }}
+				</li>
+			{{- end -}}
+			{{ template "partials/paginator.html" . }}
+		</ul>
+	</div>
+
+	{{ partial "footer.html" . }}
+</body>
+
+</html>

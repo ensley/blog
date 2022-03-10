@@ -1,10 +1,13 @@
 ---
-title: "End-to-End Machine Learning with AWS"
+title: "End-to-End Machine Learning with AWS: Part 3"
 description: "Setting up the development environment"
 date: 2022-03-07T20:15:43-07:00
 draft: true
+tags:
+  - End-to-End Machine Learning with AWS
 ---
 
+## Setting up the Development Environment
 
 ## Things to install
 
@@ -192,3 +195,6 @@ However, note that there are certain resources that are not deleted by default w
 this, but rather are "orphaned" and their association with the CloudFormation stack is removed
 instead. S3 buckets are an example of such a resource - CloudFormation won't delete stored
 data unless you explicitly tell it to.
+
+[Previous: Defining the business requirements]({{< relref "e2e-ml-aws-overview" >}} "Defining the business 
+requirements")

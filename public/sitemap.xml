@@ -3,9 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.john-ensley.com/</loc>
+    <lastmod>2022-03-08T15:44:37-07:00</lastmod>
   </url><url>
-    <loc>https://blog.john-ensley.com/categories/</loc>
+    <loc>https://blog.john-ensley.com/tags/end-to-end-machine-learning-with-aws/</loc>
+    <lastmod>2022-03-08T15:44:37-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.john-ensley.com/posts/e2e-ml-aws-overview/</loc>
+    <lastmod>2022-03-08T15:44:37-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.john-ensley.com/posts/</loc>
+    <lastmod>2022-03-08T15:44:37-07:00</lastmod>
   </url><url>
     <loc>https://blog.john-ensley.com/tags/</loc>
+    <lastmod>2022-03-08T15:44:37-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.john-ensley.com/posts/e2e-ml-aws-intro/</loc>
+    <lastmod>2022-03-07T21:52:23-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.john-ensley.com/posts/e2e-ml-aws-setup/</loc>
+    <lastmod>2022-03-07T20:15:43-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.john-ensley.com/categories/</loc>
   </url>
 </urlset>

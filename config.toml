@@ -2,6 +2,7 @@ baseURL = 'https://blog.john-ensley.com/'
 languageCode = 'en-us'
 title = 'Blog'
 theme = "ink"
+copyright = "© John Ensley"
 
 
 pygmentsstyle = "friendly"
@@ -11,7 +12,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
 mode = "auto"
-subtitle = ""
+subtitle = "John Ensley"
 
 # Optional 64x64 avatar image.
 # avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
@@ -19,10 +20,26 @@ subtitle = ""
 featherIconsCDN = true
 
 
+[taxonomies]
+    tag = "tags"
+
+
+[[params.social]]
+name = "My homepage"
+icon = "home"
+url = "https://john-ensley.com"
+
+
 [[params.social]]
 name = "Github"
 icon = "github"
 url = "https://github.com/ensley/"
+
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/john__ensley"
 
 
 [[params.social]]
@@ -46,16 +63,6 @@ weight = 2
 name = "Tags"
 url = "/tags"
 weight = 3
-
-
-[[menu.main]]
-name = "john-ensley.com"
-url = "https://john-ensley.com"
-weight = 4
-
-
-[taxonomies]
-tag = "tags"
 
 
 [deployment]
